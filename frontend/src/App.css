@@ -1,0 +1,52 @@
+/* Định dạng các nút button */
+.button-wrapper {
+    display: inline-block;
+}
+
+.btn {
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Định dạng table */
+.table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+}
+
+/* Định dạng header của table */
+.table-header {
+    background-color: #343a40;
+    color: #fff;
+}
+
+/* Định dạng nội dung của table */
+.table-content {
+    background-color: #f8f9fa;
+}
+
+/* Định dạng các nút trong một hàng của table */
+.table-button {
+    margin-right: 5px;
+}
+
+/* Định dạng hình dạng của các nút */
+.btn-rounded {
+    border-radius: 20px;
+}
